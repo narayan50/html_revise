@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><MARK>Form details</MARK></h1>
+    <fieldset>
+        <legend>Personal information</legend><BR><BR>
+    <form>
+        <lable>
+            First name:
+            <input type="text" placeholder="enter your first name">
+        </lable><br><br>
+        <label>
+            Last name:
+            <input type =text placeholder="enter your last name">
+        </label>
+        <br><br>
+        
+            Email:
+            <input type="email" placeholder="enter your email">
+        <label><br><br>
+            Date of birth:
+            <input type="date" placeholder="enter your age">
+        </label>
+        <br><br>
+        <label >
+            Phone number:
+            <input type="number" placeholder="enter your phone number">
+        </label>
+        <br><br>
+        <label>
+            Password:
+            <input type="password" placeholder="enter your password"><BR><br>
+                <label>
+                    Choose your city:
+                    <input type="checkbox" name=" Choose your city:" checked> Pune
+                    <input type="checkbox"name=" Choose your city:"> Delhi
+                    <input type="checkbox"name=" Choose your city:"> Mumbai     
+                    <input type="checkbox"name=" Choose your city:"> Sylhet
+                </label>   
+        </label><br><br> 
+        <label>
+            Please choose time slot:
+            <input type="time">
+        </label><br><br>   
+        <label>
+            Upload your file:
+            <!-- WITH HELP OF MULTIPLE KEYWORD WE CAN CHOOSE MULTIPLE FILES -->
+            <input type="file" multiple>
+        </label> <BR><BR>
+            <label>
+                Choose your subject:
+                <select>
+                     <option>Choose Subject</option>
+                    <option>MATHEMATICS</option>
+                    <option>ENGLISH</option>
+                    <option>HISTORY</option>
+                    <option>GEOGRAPHY</option>
+                    <option>SCIENCE</option>
+                </select>
+            </label><BR><BR>
+
+        <label>
+            Terms and conditions
+            <input type="radio" name="Terms and conditions"> agree 
+            <input type="radio" name="Terms and conditions"> disagree  <br><br> 
+    
+        </label>
+        <div>
+            <label>
+                Write your message:
+                <br>
+                <textarea cols="30" rows="5" placeholder="write your message here"></textarea>
+            </label><br><br>
+      
+        <div>
+            <!-- not usable for backend sumbmition -->
+               <BUTton>Reset</BUTton>
+               <!-- used for backedend storage -->
+                <input type="submit" value="Submit">
+               
+        </div>
+       
+        </fieldset>
+
+    </form>
+
+    <br><hr>    
+    <fieldset>
+        <legend>Registration</legend><br><br>
+        <form>
+          <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br><br>
+          <input type="checkbox" name="vehicle2" value="Car"> I have a
+    car<br><br>
+          <input type="checkbox" name="vehicle3" value="Boat"> I have a boat<br><br> 
+            <input type="submit" value="Submit">   
+        </form>
+    </fieldset>
+</body>
+</html>
