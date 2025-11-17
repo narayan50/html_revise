@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d html</title>
+    <style>
+        .text-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+            font-size: 50px;
+            font-weight: 800;
+        }
+        .text-container >b{
+            height: 70px;
+            box-shadow: 0px 40px 60px rgb(255, 255, 0);
+            background: linear-gradient(to right red green black white);
+            background: transparent;
+            animation: getup 10 infinite;
+           
+        }
+        .text-container>b:nth-child(1){animation-delay: 0s;}
+         .text-container>b:nth-child(2){animation-delay: 0.25s;}
+          .text-container>b:nth-child(3){animation-delay: 0.40s;}
+           .text-container>b:nth-child(4){animation-delay: 0.75s;}
+              .text-container>b:nth-child(5){animation-delay: 0.80s;}  
+                .text-container>b:nth-child(6){animation-delay: 0.85s;}
+                 .text-container>b:nth-child(7){animation-delay: 1s;} 
+                 
+                 @keyframes getup {
+                   from{}
+                    
+                 }
+    </style>
+</head>
+<body>
+    <div class="text-container">
+        <B>N</B>  <B>A</B>  <B>R</B>  <B>A</B>  <B>Y</B>  <B>A</B>  <B>N</B>
+
+    </div>    
+
+    
+</body>
+</html>
